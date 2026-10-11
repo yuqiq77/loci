@@ -1,0 +1,1 @@
+ALTER TABLE "memories" ADD COLUMN "kind" text DEFAULT 'shared_moment' NOT NULL;

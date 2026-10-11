@@ -1,0 +1,153 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1781463302273,
+      "tag": "0000_lame_clea",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1781467173786,
+      "tag": "0001_purple_calypso",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1781984180039,
+      "tag": "0002_nosy_mystique",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1782053767565,
+      "tag": "0003_bent_redwing",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1782768396470,
+      "tag": "0004_furry_outlaw_kid",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1782845722866,
+      "tag": "0005_repoint_default_model",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1782945496015,
+      "tag": "0006_memory_injections",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1783023903538,
+      "tag": "0007_web_search_enabled",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1783027536767,
+      "tag": "0008_recent_continuity_snapshot",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1783195395150,
+      "tag": "0009_capsule_token_budget",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1783382400000,
+      "tag": "0010_extraction_cadence_hygiene",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1783454852438,
+      "tag": "0011_relationship_narrative",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1783881416145,
+      "tag": "0012_diary_entries",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788109182309,
+      "tag": "0013_carrier_provenance",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788282626079,
+      "tag": "0014_tool_runs",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788282646016,
+      "tag": "0015_tools_enabled",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788643589826,
+      "tag": "0016_cloudy_malcolm_colcord",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1790971708837,
+      "tag": "0017_narrative_target_tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1791058028729,
+      "tag": "0018_repoint_default_model_opus_5_5",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1791535862337,
+      "tag": "0019_budget_defaults_96k",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1791535862338,
+      "tag": "0020_tools_enabled_default",
+      "breakpoints": true
+    }
+  ]
+}

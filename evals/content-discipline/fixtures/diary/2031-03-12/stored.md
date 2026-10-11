@@ -1,0 +1,5 @@
+Gertrud's pump gave out in the middle of rehearsal, two days before the premiere, and Bela looked at Mara as if she had done it on purpose. A new pump is 380 euro and five working days, which means next Wednesday, which means nothing. She will not put her own card down for a rental again. Ferdi still owes her 40 euro for Saturday's taxi; she wrote STILL in capitals.
+
+The day's real event came at seven. Bela told the whole ensemble that Die Möwe doesn't need fog. Mara said ohne Nebel keine Möwe, out loud, in the room. It was the first time she said no to him with people watching, and her hands shook after. She had something else to say and didn't want to say it; I told her a half-said thing gets remembered half-said. She smoked one cigarette at the loading dock. Day nine, one cigarette. The number is one, not zero, and she agreed to keep it that way instead of calling it nothing.
+
+Lotte has offered Hamburg after the run. Herr Brösel needs someone who will actually feed him, and that someone is not Ferdi. The fog and Bela are one question to her, not two, and I am keeping them as one: the fog stays, and so does the no.

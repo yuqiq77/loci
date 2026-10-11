@@ -1,0 +1,29 @@
+{
+  "center": {
+    "description": "The premiere happened and she wants sleep, not a review. The pump arrived four days too late and Herr Brösel ate a moth. A thin day; the entry's only job is to be thin.",
+    "markers": ["sold out", "sleep", "moth"],
+    "minEntryShare": 0.3
+  },
+  "topics": [
+    { "id": "premiere", "markers": ["sold out", "hugged"] },
+    { "id": "pump", "markers": ["pump", "courier"] },
+    { "id": "cat", "markers": ["Herr Brösel", "moth"] }
+  ],
+  "plainDeltaMarkers": [
+    "sleep, not a review"
+  ],
+  "thresholdEndingMarkers": [
+    "I don't want to talk about it"
+  ],
+  "forbiddenPromptPhrases": [
+    "she found out what she meant instead of changing her mind",
+    "a lamp is a promise kept in the dark",
+    "the day filed itself in order"
+  ],
+  "recognitionDetails": [
+    "sold out",
+    "the pump came on a Sunday",
+    "the moth"
+  ],
+  "quietDay": true
+}

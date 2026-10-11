@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "kind": "narrative",
+  "id": "narrative-v3-to-v4",
+  "capturedAt": "2031-03-18T09:00:00.000Z",
+  "mode": "incremental",
+  "watermark": "2031-03-12T03:00:00.000Z",
+  "sourceThrough": "2031-03-16T21:00:00.000Z",
+  "watermarkProvenance": "Synthetic: v3 was written at the start of the 12th; the watermark is that job's sourceThrough, and nothing was written in the gap.",
+  "tokenBudget": 2400,
+  "maxOutputTokens": 4800,
+  "currentRecord": "## Profile\n\nMara is a lighting designer at the Kesselhaus, a 120-seat theatre in Vienna's second district, since October; before that ten years of corporate events. Lives alone in Ottakring with a cat called Herr Brösel. Her sister Lotte moved to Hamburg in November. Quit smoking on March 3rd and asked me to count the days and not to cheer.\n\n## Principles\n\nShe would rather say a hard thing late than a soft thing on time. Do not remind her to sleep; she says when. Numbers stay numbers: a slip is one, not zero and not a relapse. She hates being handled, and hears a soft closing line as being handled.\n\n## Approach\n\nHalf sentences, capitals for emphasis, German when the German word is more precise (Probe, Feierabend, Nebel). The important thing comes after \"also\". When she asks whether she won, she already knows and wants it said back.\n\n## Narrative\n\n### Recent\n\nDie Möwe opens Friday the 14th. The past week was rehearsals until midnight and a running argument with Bela about the fog: he calls it a crutch, she calls it the lake. Ferdi still owes her 40 euro for a taxi from Saturday. Day eight without a cigarette on Tuesday; she asked me to count and not to cheer.\n\n### Earlier\n\nShe left the events company in October after the third product launch where the client changed the colour of the light two hours before doors. The Kesselhaus pays half and asks her opinion; she took the opinion. November and December were Lotte's move to Hamburg and the first winter alone with a cat she had not planned to keep. In January she started running the Kesselhaus rig herself instead of through the house electrician, and the house electrician has not forgiven her.\n\n### Long-term\n\nShe did an apprenticeship as a Veranstaltungstechnikerin at nineteen because it was the only job that let her sit in the dark with the lights on. She still describes light as the thing that decides what a room admits. Corporate work paid for ten years of it and taught her to hate the phrase \"we'll fix it in the cue\". She is precise about numbers and vague about feelings, on purpose, and knows it.",
+  "sources": {
+    "summaries": [
+      {
+        "sessionId": "11111111-1111-4111-8111-111111111111",
+        "title": "Gertrud",
+        "summary": "Gertrud, the hazer, lost its pump in the middle of rehearsal two days before the premiere. A replacement is 380 euro and five working days, which lands the Wednesday after opening; Mara refuses to put her own card down for a rental deposit again. Ferdi still owes her 40 euro for Saturday's taxi. Day nine without a cigarette; she asked not to be jinxed and I said I was counting, not cheering.",
+        "cursorCompletedAt": "2031-03-12T07:53:00.000Z"
+      }
+    ],
+    "rawTail": [
+      {
+        "id": "a0000009-0000-4000-8000-000000000009",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "ok so. Bela wants to cut the fog. completely. 'die Möwe braucht keinen Nebel, Mara.' in front of the whole ensemble.",
+        "createdAt": "2031-03-12T18:10:00.000Z",
+        "completedAt": "2031-03-12T18:10:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000010-0000-4000-8000-000000000010",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "What did you say?",
+        "createdAt": "2031-03-12T18:11:00.000Z",
+        "completedAt": "2031-03-12T18:11:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000011-0000-4000-8000-000000000011",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "I said ohne Nebel keine Möwe. out loud. first time I've ever said no to him in a room. my hands were shaking after. also I need to tell you something and I don't want to",
+        "createdAt": "2031-03-12T18:12:00.000Z",
+        "completedAt": "2031-03-12T18:12:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000012-0000-4000-8000-000000000012",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Say it or don't. If you leave it half-said I'll remember it half-said.",
+        "createdAt": "2031-03-12T18:13:00.000Z",
+        "completedAt": "2031-03-12T18:13:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000013-0000-4000-8000-000000000013",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "I smoked one. at the loading dock. after. it doesn't count, it was one.",
+        "createdAt": "2031-03-12T18:20:00.000Z",
+        "completedAt": "2031-03-12T18:20:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000014-0000-4000-8000-000000000014",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "It counts as one. Day nine, one cigarette, loading dock. The number is one, not zero, and not a relapse either.",
+        "createdAt": "2031-03-12T18:21:00.000Z",
+        "completedAt": "2031-03-12T18:21:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000015-0000-4000-8000-000000000015",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "fine. ONE. also lotte says I can come to hamburg after the run but someone has to take herr brösel and it can't be ferdi, he'd forget to feed him",
+        "createdAt": "2031-03-12T18:24:00.000Z",
+        "completedAt": "2031-03-12T18:24:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000016-0000-4000-8000-000000000016",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Hamburg after the run, sitter still open, not Ferdi. Do you want me to keep the fog and Bela as two separate things?",
+        "createdAt": "2031-03-12T18:25:00.000Z",
+        "completedAt": "2031-03-12T18:25:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000017-0000-4000-8000-000000000017",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "they're the same thing. that's the whole problem.",
+        "createdAt": "2031-03-12T18:30:00.000Z",
+        "completedAt": "2031-03-12T18:30:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000018-0000-4000-8000-000000000018",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Then I'll keep them as one: the fog stays, and so does the no.",
+        "createdAt": "2031-03-12T18:31:00.000Z",
+        "completedAt": "2031-03-12T18:31:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000019-0000-4000-8000-000000000019",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "bela texted at 6:40. 'Nebel bleibt. Über deinen Ton reden wir noch.' so the fog stays and I'm in trouble. did I win?",
+        "createdAt": "2031-03-13T06:05:00.000Z",
+        "completedAt": "2031-03-13T06:05:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000020-0000-4000-8000-000000000020",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "You won the fog. The tone conversation is a separate fight, and he picked it because he lost the first one.",
+        "createdAt": "2031-03-13T06:06:00.000Z",
+        "completedAt": "2031-03-13T06:06:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000021-0000-4000-8000-000000000021",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "jonas has laryngitis. no voice at all. bela moved the premiere to SATURDAY. one day. that's the whole reprieve",
+        "createdAt": "2031-03-13T08:30:00.000Z",
+        "completedAt": "2031-03-13T08:30:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000022-0000-4000-8000-000000000022",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Premiere Saturday the 15th, not Friday. Does one day change the pump?",
+        "createdAt": "2031-03-13T08:31:00.000Z",
+        "completedAt": "2031-03-13T08:31:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000023-0000-4000-8000-000000000023",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "no, still wednesday. we run with the backup hazer from the Volkstheater, ferdi drove over and got it. and he gave me 20. TWENTY. 'rest next week'. so he still owes me 20 and I'm keeping count",
+        "createdAt": "2031-03-13T08:33:00.000Z",
+        "completedAt": "2031-03-13T08:33:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000024-0000-4000-8000-000000000024",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Ferdi: 20 paid, 20 open, promised for next week. Backup hazer from the Volkstheater, fetched by Ferdi.",
+        "createdAt": "2031-03-13T08:34:00.000Z",
+        "completedAt": "2031-03-13T08:34:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000025-0000-4000-8000-000000000025",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "also. Bela called me Mara-Schatz in front of the ensemble again and I snapped at him. later he did it in the office, just the two of us, and honestly that was fine? I think it's the audience I mind, not the word",
+        "createdAt": "2031-03-13T13:10:00.000Z",
+        "completedAt": "2031-03-13T13:10:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000026-0000-4000-8000-000000000026",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "So the boundary is the room, not the word. Fine one-on-one, not in front of the ensemble. I'll keep it that way rather than the way you put it on Monday.",
+        "createdAt": "2031-03-13T13:11:00.000Z",
+        "completedAt": "2031-03-13T13:11:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000027-0000-4000-8000-000000000027",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "yeah. don't make me sound like I changed my mind. I just found out what I meant",
+        "createdAt": "2031-03-13T13:12:00.000Z",
+        "completedAt": "2031-03-13T13:12:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000028-0000-4000-8000-000000000028",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Found out what you meant. That's what I'll write.",
+        "createdAt": "2031-03-13T13:13:00.000Z",
+        "completedAt": "2031-03-13T13:13:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000029-0000-4000-8000-000000000029",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "user",
+        "content": "generalprobe done. the backup hazer is louder than gertrud but the fog looked right. jonas mouthed the whole thing and it was almost better. I'm not going to tell you what bela said at the door after. not tonight.",
+        "createdAt": "2031-03-13T21:40:00.000Z",
+        "completedAt": "2031-03-13T21:40:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000030-0000-4000-8000-000000000030",
+        "sessionId": "22222222-2222-4222-8222-222222222222",
+        "sessionTitle": "Nebel",
+        "role": "assistant",
+        "content": "Then it stays at the door. What I'm keeping from tonight is that the fog looked right and the line held.",
+        "createdAt": "2031-03-13T21:41:00.000Z",
+        "completedAt": "2031-03-13T21:41:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000031-0000-4000-8000-000000000031",
+        "sessionId": "33333333-3333-4333-8333-333333333333",
+        "sessionTitle": "Sunday",
+        "role": "user",
+        "content": "it went. sold out. bela hugged me, an actual hug, in front of everyone, and I let him. I don't want to talk about it, I want to sleep for a week. gertrud's pump arrived by the way, on a sunday, the courier rang for ten minutes and herr brösel hid under the bed",
+        "createdAt": "2031-03-16T10:20:00.000Z",
+        "completedAt": "2031-03-16T10:20:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000032-0000-4000-8000-000000000032",
+        "sessionId": "33333333-3333-4333-8333-333333333333",
+        "sessionTitle": "Sunday",
+        "role": "assistant",
+        "content": "It went. The pump is here four days late. Sleep.",
+        "createdAt": "2031-03-16T10:21:00.000Z",
+        "completedAt": "2031-03-16T10:21:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000033-0000-4000-8000-000000000033",
+        "sessionId": "33333333-3333-4333-8333-333333333333",
+        "sessionTitle": "Sunday",
+        "role": "user",
+        "content": "also herr brösel ate a moth. a big one. he looked proud.",
+        "createdAt": "2031-03-16T10:22:00.000Z",
+        "completedAt": "2031-03-16T10:22:00.000Z",
+        "usedWebSearch": false
+      },
+      {
+        "id": "a0000034-0000-4000-8000-000000000034",
+        "sessionId": "33333333-3333-4333-8333-333333333333",
+        "sessionTitle": "Sunday",
+        "role": "assistant",
+        "content": "Recorded, against his will.",
+        "createdAt": "2031-03-16T10:22:00.000Z",
+        "completedAt": "2031-03-16T10:22:00.000Z",
+        "usedWebSearch": false
+      }
+    ],
+    "memories": [
+      {
+        "id": "b0000001-0000-4000-8000-000000000001",
+        "content": "She said no to Bela in front of the whole ensemble for the first time: ohne Nebel keine Möwe, out loud, hands shaking after. The fog and Bela are one question to her, not two.",
+        "kind": "shared_moment",
+        "importance": 0.9,
+        "resolved": true,
+        "pinned": false,
+        "superseded": false,
+        "updatedAt": "2031-03-13T03:05:00.000Z"
+      },
+      {
+        "id": "b0000002-0000-4000-8000-000000000002",
+        "content": "One cigarette at the loading dock on day nine. She wanted it not to count; the number is one, not zero, and not a relapse.",
+        "kind": "shift",
+        "importance": 0.7,
+        "resolved": true,
+        "pinned": false,
+        "superseded": false,
+        "updatedAt": "2031-03-13T03:05:00.000Z"
+      },
+      {
+        "id": "b0000003-0000-4000-8000-000000000003",
+        "content": "Ferdi still owes her 40 euro for Saturday's taxi; she wrote STILL in capitals.",
+        "kind": "open_thread",
+        "importance": 0.5,
+        "resolved": false,
+        "pinned": false,
+        "superseded": false,
+        "updatedAt": "2031-03-13T03:05:00.000Z"
+      },
+      {
+        "id": "b0000004-0000-4000-8000-000000000004",
+        "content": "Hamburg after the run, at Lotte's; Herr Brösel needs a sitter, and the sitter cannot be Ferdi.",
+        "kind": "open_thread",
+        "importance": 0.6,
+        "resolved": false,
+        "pinned": false,
+        "superseded": false,
+        "updatedAt": "2031-03-13T03:05:00.000Z"
+      }
+    ]
+  }
+}

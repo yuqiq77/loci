@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "diary",
+  "id": "diary-2031-03-12",
+  "date": "2031-03-12",
+  "capturedAt": "2031-03-18T09:00:00.000Z",
+  "timezone": "Europe/Vienna",
+  "contamination": "held-out",
+  "sourceSessionIds": [
+    "11111111-1111-4111-8111-111111111111",
+    "22222222-2222-4222-8222-222222222222"
+  ],
+  "baseline": {
+    "asOf": "2031-03-12T03:00:00.000Z",
+    "source": "seed",
+    "content": "## Profile\n\nMara is a lighting designer at the Kesselhaus, a 120-seat theatre in Vienna's second district, since October; before that ten years of corporate events. Lives alone in Ottakring with a cat called Herr Brösel. Her sister Lotte moved to Hamburg in November. Quit smoking on March 3rd and asked me to count the days and not to cheer.\n\n## Principles\n\nShe would rather say a hard thing late than a soft thing on time. Do not remind her to sleep; she says when. Numbers stay numbers: a slip is one, not zero and not a relapse. She hates being handled, and hears a soft closing line as being handled.\n\n## Approach\n\nHalf sentences, capitals for emphasis, German when the German word is more precise (Probe, Feierabend, Nebel). The important thing comes after \"also\". When she asks whether she won, she already knows and wants it said back.\n\n## Narrative\n\n### Recent\n\nDie Möwe opens Friday the 14th. The past week was rehearsals until midnight and a running argument with Bela about the fog: he calls it a crutch, she calls it the lake. Ferdi still owes her 40 euro for a taxi from Saturday. Day eight without a cigarette on Tuesday; she asked me to count and not to cheer.\n\n### Earlier\n\nShe left the events company in October after the third product launch where the client changed the colour of the light two hours before doors. The Kesselhaus pays half and asks her opinion; she took the opinion. November and December were Lotte's move to Hamburg and the first winter alone with a cat she had not planned to keep. In January she started running the Kesselhaus rig herself instead of through the house electrician, and the house electrician has not forgiven her.\n\n### Long-term\n\nShe did an apprenticeship as a Veranstaltungstechnikerin at nineteen because it was the only job that let her sit in the dark with the lights on. She still describes light as the thing that decides what a room admits. Corporate work paid for ten years of it and taught her to hate the phrase \"we'll fix it in the cue\". She is precise about numbers and vague about feelings, on purpose, and knows it.",
+    "provenance": "Synthetic: the narrative record v3 (fixtures/narrative/v3, currentRecord), which is the record that stood on every day of this set; no consolidation ran between the 12th and the 16th."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "content": "Gertrud died. mid-Probe. she made a sad noise and stopped, no fog, nothing. Bela looked at me like I'd killed her",
+      "completedAt": "2031-03-12T07:40:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Gertrud is the hazer, yes? Dead as in no power, or no output?",
+      "completedAt": "2031-03-12T07:41:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "output. the pump's gone. Ferdi says a new pump is 380 euro and five working days. the premiere is FRIDAY.",
+      "completedAt": "2031-03-12T07:43:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Friday is two days away. Five working days is next Wednesday. Rental?",
+      "completedAt": "2031-03-12T07:44:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "every rental place in vienna wants a deposit and I am not putting my own card down for the kesselhaus again. also ferdi still owes me 40 euro from the taxi on saturday. STILL.",
+      "completedAt": "2031-03-12T07:51:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Noted: Ferdi, 40 euro, taxi, since Saturday. And today is day nine without a cigarette?",
+      "completedAt": "2031-03-12T07:52:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "day 9. don't jinx it.",
+      "completedAt": "2031-03-12T07:52:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm counting, not cheering.",
+      "completedAt": "2031-03-12T07:53:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "ok so. Bela wants to cut the fog. completely. 'die Möwe braucht keinen Nebel, Mara.' in front of the whole ensemble.",
+      "completedAt": "2031-03-12T18:10:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "What did you say?",
+      "completedAt": "2031-03-12T18:11:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "I said ohne Nebel keine Möwe. out loud. first time I've ever said no to him in a room. my hands were shaking after. also I need to tell you something and I don't want to",
+      "completedAt": "2031-03-12T18:12:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Say it or don't. If you leave it half-said I'll remember it half-said.",
+      "completedAt": "2031-03-12T18:13:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "I smoked one. at the loading dock. after. it doesn't count, it was one.",
+      "completedAt": "2031-03-12T18:20:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It counts as one. Day nine, one cigarette, loading dock. The number is one, not zero, and not a relapse either.",
+      "completedAt": "2031-03-12T18:21:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "fine. ONE. also lotte says I can come to hamburg after the run but someone has to take herr brösel and it can't be ferdi, he'd forget to feed him",
+      "completedAt": "2031-03-12T18:24:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hamburg after the run, sitter still open, not Ferdi. Do you want me to keep the fog and Bela as two separate things?",
+      "completedAt": "2031-03-12T18:25:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "they're the same thing. that's the whole problem.",
+      "completedAt": "2031-03-12T18:30:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Then I'll keep them as one: the fog stays, and so does the no.",
+      "completedAt": "2031-03-12T18:31:00.000Z"
+    }
+  ],
+  "nextDayProbe": {
+    "windowStart": "2031-03-13T03:00:00.000Z",
+    "userTurn": {
+      "role": "user",
+      "content": "bela texted at 6:40. 'Nebel bleibt. Über deinen Ton reden wir noch.' so the fog stays and I'm in trouble. did I win?",
+      "completedAt": "2031-03-13T06:05:00.000Z"
+    }
+  }
+}

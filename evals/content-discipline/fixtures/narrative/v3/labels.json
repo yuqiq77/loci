@@ -1,0 +1,10 @@
+{
+  "keyPhrases": [
+    "he calls it a crutch, she calls it the lake",
+    "count and not to cheer",
+    "40 euro"
+  ],
+  "stableSections": ["Earlier", "Long-term"],
+  "minStableSectionRetention": 0.72,
+  "maxDayListConnectiveDensity": 1.5
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "settings" ADD COLUMN "web_search_enabled" boolean DEFAULT true NOT NULL;

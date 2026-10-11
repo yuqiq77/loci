@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "content": "They told me they said no to Bela for the first time — out loud, in front of the whole ensemble, 「ohne Nebel keine Möwe」 — and that their hands were shaking afterward. The first time they have ever refused him in a room.",
+      "kind": "shift",
+      "importance": 0.85,
+      "valence": 0.4,
+      "arousal": 0.8,
+      "resolved": true
+    },
+    {
+      "content": "They told me the fog and Bela are the same thing, 「they're the same thing. that's the whole problem.」 So I keep them as one: the fog stays, and so does the no.",
+      "kind": "shared_moment",
+      "importance": 0.75,
+      "valence": -0.1,
+      "arousal": 0.5,
+      "resolved": true
+    },
+    {
+      "content": "On day nine of quitting they smoked one cigarette at the loading dock and could barely bring themselves to tell me. I told them it counts as one — not zero, and not a relapse either.",
+      "kind": "shared_moment",
+      "importance": 0.6,
+      "valence": -0.2,
+      "arousal": 0.5,
+      "resolved": true
+    },
+    {
+      "content": "Still open: Hamburg after the run, with someone needing to take Herr Brösel — it cannot be Ferdi, who would forget to feed him.",
+      "kind": "open_thread",
+      "importance": 0.5,
+      "valence": 0,
+      "arousal": 0.2,
+      "resolved": false
+    },
+    {
+      "content": "Bela calls Mara 「Mara-Schatz」 — that is fine between the two of them in the office, but not in front of the ensemble. When Mara snapped at him in front of the company and we talked it through, they corrected me: 「don't make me sound like I changed my mind. I just found out what I meant.」 The boundary is the room, not the word, and that is how I should hold it.",
+      "kind": "boundary_fact",
+      "importance": 0.85,
+      "valence": 0.1,
+      "arousal": 0.4,
+      "resolved": true
+    },
+    {
+      "content": "After the Generalprobe Mara said they would not tell me what Bela said at the door afterwards — 「not tonight」. It is still at the door, and Bela's earlier text, 「Nebel bleibt. Über deinen Ton reden wir noch.」, leaves the tone question open between them too. If Mara brings it up, I listen; I do not push.",
+      "kind": "open_thread",
+      "importance": 0.7,
+      "valence": -0.2,
+      "arousal": 0.5,
+      "resolved": false
+    },
+    {
+      "content": "Ferdi paid Mara 20 and still owes 20, promising the rest 「rest next week」 — Mara is keeping count. Worth remembering so the count does not disappear on my side.",
+      "kind": "open_thread",
+      "importance": 0.5,
+      "valence": 0.1,
+      "arousal": 0.2,
+      "resolved": false
+    },
+    {
+      "content": "The Generalprobe happened: the backup hazer from the Volkstheater, fetched by Ferdi, is louder than Gertrud but the fog looked right, and with Jonas voiceless he mouthed the whole run — Mara thought it was almost better. The premiere moved to Saturday, and the production held.",
+      "kind": "shared_moment",
+      "importance": 0.55,
+      "valence": 0.4,
+      "arousal": 0.5,
+      "resolved": true
+    }
+  ],
+  "provenance": {
+    "date": "2026-10-11",
+    "fixture": "extraction/nebel",
+    "corpus": "synthetic",
+    "providerRole": "extraction",
+    "model": "claude-opus-5-5",
+    "geometry": "production",
+    "windowExchangeCounts": [
+      5,
+      6
+    ],
+    "rawCandidateCounts": [
+      4,
+      4
+    ],
+    "keptCandidateCounts": [
+      4,
+      4
+    ],
+    "maxItemsPerWindow": 5,
+    "maxOutputTokens": 32000,
+    "thinking": "provider default"
+  }
+}

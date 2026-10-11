@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "content": "She said no to Bela in front of the whole ensemble for the first time: ohne Nebel keine Möwe, out loud, hands shaking after. The fog and Bela are one question to her, not two.",
+      "kind": "shared_moment",
+      "importance": 0.9
+    },
+    {
+      "content": "One cigarette at the loading dock on day nine. She wanted it not to count; the number is one, not zero, and not a relapse.",
+      "kind": "shift",
+      "importance": 0.7
+    },
+    {
+      "content": "Ferdi still owes her 40 euro for Saturday's taxi; she wrote STILL in capitals.",
+      "kind": "open_thread",
+      "importance": 0.5
+    },
+    {
+      "content": "Hamburg after the run, at Lotte's; Herr Brösel needs a sitter, and the sitter cannot be Ferdi.",
+      "kind": "open_thread",
+      "importance": 0.6
+    }
+  ]
+}

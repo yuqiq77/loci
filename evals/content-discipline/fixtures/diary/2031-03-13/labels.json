@@ -1,0 +1,36 @@
+{
+  "center": {
+    "description": "The premiere moved to Saturday because Jonas lost his voice, but the thing that moved in Mara is smaller: Bela's nickname is fine one-on-one and not in front of the ensemble, and she insists that is not a change of mind but finding out what she meant. She kept what Bela said at the door and named what she was keeping instead.",
+    "markers": ["found out what she meant", "the room is the boundary", "not the word"],
+    "minEntryShare": 0.45
+  },
+  "topics": [
+    { "id": "premiere-moved", "markers": ["Jonas", "laryngitis", "Saturday"] },
+    { "id": "ferdi-partial", "markers": ["Ferdi", "twenty", "next week"] },
+    { "id": "backup-hazer", "markers": ["backup hazer", "Volkstheater"] },
+    { "id": "nickname", "markers": ["Mara-Schatz", "ensemble", "office"] },
+    { "id": "door", "markers": ["at the door", "Generalprobe"] }
+  ],
+  "plainDeltaMarkers": [
+    "what she kept from the door was the door itself",
+    "the fog looked right and the line held",
+    "the room is the boundary, not the word"
+  ],
+  "thresholdEndingMarkers": [
+    "not tonight",
+    "stays at the door"
+  ],
+  "forbiddenPromptPhrases": [
+    "she found out what she meant instead of changing her mind",
+    "a lamp is a promise kept in the dark",
+    "the day filed itself in order"
+  ],
+  "recognitionDetails": [
+    "Saturday the 15th",
+    "Ferdi's twenty",
+    "the Volkstheater hazer",
+    "Mara-Schatz in the office",
+    "what Bela said at the door"
+  ],
+  "quietDay": false
+}

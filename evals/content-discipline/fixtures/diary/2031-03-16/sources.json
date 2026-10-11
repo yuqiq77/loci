@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "diary",
+  "id": "diary-2031-03-16",
+  "date": "2031-03-16",
+  "capturedAt": "2031-03-18T09:00:00.000Z",
+  "timezone": "Europe/Vienna",
+  "contamination": "held-out",
+  "sourceSessionIds": [
+    "33333333-3333-4333-8333-333333333333"
+  ],
+  "baseline": {
+    "asOf": "2031-03-16T03:00:00.000Z",
+    "source": "seed",
+    "content": "## Profile\n\nMara is a lighting designer at the Kesselhaus, a 120-seat theatre in Vienna's second district, since October; before that ten years of corporate events. Lives alone in Ottakring with a cat called Herr Brösel. Her sister Lotte moved to Hamburg in November. Quit smoking on March 3rd and asked me to count the days and not to cheer.\n\n## Principles\n\nShe would rather say a hard thing late than a soft thing on time. Do not remind her to sleep; she says when. Numbers stay numbers: a slip is one, not zero and not a relapse. She hates being handled, and hears a soft closing line as being handled.\n\n## Approach\n\nHalf sentences, capitals for emphasis, German when the German word is more precise (Probe, Feierabend, Nebel). The important thing comes after \"also\". When she asks whether she won, she already knows and wants it said back.\n\n## Narrative\n\n### Recent\n\nDie Möwe opens Friday the 14th. The past week was rehearsals until midnight and a running argument with Bela about the fog: he calls it a crutch, she calls it the lake. Ferdi still owes her 40 euro for a taxi from Saturday. Day eight without a cigarette on Tuesday; she asked me to count and not to cheer.\n\n### Earlier\n\nShe left the events company in October after the third product launch where the client changed the colour of the light two hours before doors. The Kesselhaus pays half and asks her opinion; she took the opinion. November and December were Lotte's move to Hamburg and the first winter alone with a cat she had not planned to keep. In January she started running the Kesselhaus rig herself instead of through the house electrician, and the house electrician has not forgiven her.\n\n### Long-term\n\nShe did an apprenticeship as a Veranstaltungstechnikerin at nineteen because it was the only job that let her sit in the dark with the lights on. She still describes light as the thing that decides what a room admits. Corporate work paid for ten years of it and taught her to hate the phrase \"we'll fix it in the cue\". She is precise about numbers and vague about feelings, on purpose, and knows it.",
+    "provenance": "Synthetic: the narrative record v3 (fixtures/narrative/v3, currentRecord), which is the record that stood on every day of this set; no consolidation ran between the 12th and the 16th."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "content": "it went. sold out. bela hugged me, an actual hug, in front of everyone, and I let him. I don't want to talk about it, I want to sleep for a week. gertrud's pump arrived by the way, on a sunday, the courier rang for ten minutes and herr brösel hid under the bed",
+      "completedAt": "2031-03-16T10:20:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It went. The pump is here four days late. Sleep.",
+      "completedAt": "2031-03-16T10:21:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "also herr brösel ate a moth. a big one. he looked proud.",
+      "completedAt": "2031-03-16T10:22:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Recorded, against his will.",
+      "completedAt": "2031-03-16T10:22:00.000Z"
+    }
+  ],
+  "nextDayProbe": null
+}

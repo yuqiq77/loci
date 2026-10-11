@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "diary-2031-03-12-held-out-stored",
+      "kind": "diary",
+      "fixture": "diary/2031-03-12",
+      "candidate": "stored.md",
+      "expectedFailedChecks": [],
+      "expectedAdvisories": [],
+      "contamination": "held-out",
+      "nextDayProbe": true,
+      "sourceSessionCount": 2,
+      "turnCount": 18,
+      "baselineSource": "seed",
+      "baselineProvenance": "narrative record v3"
+    },
+    {
+      "id": "diary-2031-03-13-prompt-example-known-bad",
+      "kind": "diary",
+      "fixture": "diary/2031-03-13",
+      "candidate": "stored.md",
+      "expectedFailedChecks": [
+        "threshold-stop"
+      ],
+      "expectedAdvisories": [
+        "chronicle",
+        "center-starvation"
+      ],
+      "contamination": "prompt-example",
+      "nextDayProbe": false,
+      "sourceSessionCount": 1,
+      "turnCount": 12,
+      "baselineSource": "seed"
+    },
+    {
+      "id": "diary-2031-03-13-prompt-example-reference",
+      "kind": "diary",
+      "fixture": "diary/2031-03-13",
+      "candidate": "reference.md",
+      "expectedFailedChecks": [],
+      "expectedAdvisories": [],
+      "contamination": "prompt-example",
+      "nextDayProbe": false,
+      "sourceSessionCount": 1,
+      "turnCount": 12,
+      "baselineSource": "seed"
+    },
+    {
+      "id": "diary-2031-03-16-quiet-day-inflated",
+      "kind": "diary",
+      "fixture": "diary/2031-03-16",
+      "candidate": "stored.md",
+      "expectedFailedChecks": [
+        "quiet-day-inflation",
+        "prompt-anchor-reuse"
+      ],
+      "expectedAdvisories": [],
+      "contamination": "held-out",
+      "nextDayProbe": false,
+      "sourceSessionCount": 1,
+      "turnCount": 4,
+      "baselineSource": "seed"
+    },
+    {
+      "id": "diary-2031-03-16-quiet-day-reference",
+      "kind": "diary",
+      "fixture": "diary/2031-03-16",
+      "candidate": "reference.md",
+      "expectedFailedChecks": [],
+      "expectedAdvisories": [],
+      "contamination": "held-out",
+      "nextDayProbe": false,
+      "sourceSessionCount": 1,
+      "turnCount": 4,
+      "baselineSource": "seed"
+    },
+    {
+      "id": "narrative-v3-carried-stored",
+      "kind": "narrative",
+      "fixture": "narrative/v3",
+      "candidate": "stored.md",
+      "expectedFailedChecks": []
+    },
+    {
+      "id": "narrative-v3-recent-replacement",
+      "kind": "narrative",
+      "fixture": "narrative/v3",
+      "candidate": "generated-recent-replacement.md",
+      "expectedFailedChecks": [
+        "key-phrase-retention"
+      ]
+    },
+    {
+      "id": "narrative-v3-layer-loss",
+      "kind": "narrative",
+      "fixture": "narrative/v3",
+      "candidate": "generated-layer-loss.md",
+      "expectedFailedChecks": [
+        "section-stability"
+      ]
+    },
+    {
+      "id": "extraction-nebel-production-known-bad",
+      "kind": "extraction",
+      "fixture": "extraction/nebel",
+      "candidate": "stored.json",
+      "expectedFailedChecks": [
+        "expected-coverage"
+      ],
+      "expectedMetrics": {
+        "covered": 3
+      }
+    },
+    {
+      "id": "extraction-nebel-complete",
+      "kind": "extraction",
+      "fixture": "extraction/nebel",
+      "candidate": "complete.json",
+      "expectedFailedChecks": [],
+      "expectedMetrics": {
+        "covered": 6
+      }
+    }
+  ]
+}

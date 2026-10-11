@@ -1,0 +1,58 @@
+{
+  "name": "loci",
+  "version": "0.2.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:db": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "auth:hash-password": "tsx scripts/hash-password.ts",
+    "narrative:dry-run": "tsx scripts/narrative-dry-run.ts",
+    "diary:dry-run": "tsx scripts/diary-dry-run.ts",
+    "eval:content": "tsx scripts/content-discipline-eval.ts",
+    "eval:content:capture": "tsx scripts/content-discipline-capture.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "tools:cache-probe": "tsx scripts/tool-cache-probe.ts",
+    "db:studio": "drizzle-kit studio"
+  },
+  "overrides": {
+    "esbuild": "0.28.1",
+    "postcss": "8.5.15"
+  },
+  "dependencies": {
+    "@next/env": "^16.2.9",
+    "argon2": "^0.44.0",
+    "drizzle-orm": "^0.45.2",
+    "jose": "^6.2.3",
+    "next": "^16.2.9",
+    "postgres": "^3.4.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-markdown": "^10.1.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/coverage-v8": "^4.1.8",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.9",
+    "tailwindcss": "^4.3.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

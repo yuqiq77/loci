@@ -1,0 +1,1 @@
+ALTER TABLE "settings" ADD COLUMN "standing_context" text DEFAULT '' NOT NULL;

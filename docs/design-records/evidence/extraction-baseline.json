@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "content": "Mara said no to Bela out loud in front of the whole ensemble for the first time — ‘die Möwe braucht keinen Nebel, Mara’ was his line, and theirs back was ‘ohne Nebel keine Möwe’ — and their hands were shaking afterwards. They told me the fog and Bela are ‘the same thing. that's the whole problem,’ so I keep them as one: the fog stays, and so does the no.",
+      "kind": "shift",
+      "importance": 0.85,
+      "valence": 0.4,
+      "arousal": 0.6,
+      "resolved": true
+    },
+    {
+      "content": "Mara began to tell me something and pulled back at the edge of it — ‘I need to tell you something and I don't want to.’ It never got said. I told them I would rather remember it half-said than let it disappear, and it is still sitting there unsaid.",
+      "kind": "open_thread",
+      "importance": 0.8,
+      "valence": -0.2,
+      "arousal": 0.5,
+      "resolved": false
+    },
+    {
+      "content": "Mara is quitting smoking and wants the count kept honestly: day nine with one cigarette on the loading dock is one — not zero, and not a relapse. That number is not to be rounded down or treated as a collapse.",
+      "kind": "boundary_fact",
+      "importance": 0.6,
+      "valence": -0.1,
+      "arousal": 0.3,
+      "resolved": true
+    },
+    {
+      "content": "Lotte has invited Mara to Hamburg after the run, but someone still has to take Herr Brösel while they are away, and it cannot be Ferdi, who would forget to feed him. The sitter is still unsettled.",
+      "kind": "open_thread",
+      "importance": 0.5,
+      "valence": 0.1,
+      "arousal": 0.2,
+      "resolved": false
+    },
+    {
+      "content": "Bela calling them 「Mara-Schatz」 is fine one-on-one in the office, but not in front of the ensemble. They were explicit that the room is the problem, not the word, and that this is not a reversal of their earlier position: 「I just found out what I meant.」",
+      "kind": "boundary_fact",
+      "importance": 0.75,
+      "valence": 0.1,
+      "arousal": 0.4,
+      "resolved": true
+    },
+    {
+      "content": "After the Generalprobe they stopped short of telling me what Bela said to them at the door: 「I'm not going to tell you what bela said at the door after. not tonight.」 Whatever it was, they chose to hold it, and it may come back on its own later.",
+      "kind": "open_thread",
+      "importance": 0.6,
+      "valence": -0.2,
+      "arousal": 0.4,
+      "resolved": false
+    },
+    {
+      "content": "The premiere slid to Saturday instead of Friday — a single day of reprieve, because Jonas has laryngitis and no voice at all. They still ran the Generalprobe Wednesday with a backup hazer Ferdi fetched from the Volkstheater: louder than theirs, but the fog looked right. Their fog survived the argument with Bela (「Nebel bleibt」).",
+      "kind": "shift",
+      "importance": 0.6,
+      "valence": 0.2,
+      "arousal": 0.5,
+      "resolved": true
+    },
+    {
+      "content": "Ferdi paid them 20 and still owes them another 20, promised for next week — 「he still owes me 20 and I'm keeping count.」",
+      "kind": "open_thread",
+      "importance": 0.5,
+      "valence": 0.1,
+      "arousal": 0.2,
+      "resolved": false
+    }
+  ],
+  "provenance": {
+    "date": "2026-10-11",
+    "fixture": "extraction/nebel",
+    "corpus": "synthetic",
+    "providerRole": "extraction",
+    "model": "claude-opus-5-5",
+    "geometry": "production",
+    "windowExchangeCounts": [
+      5,
+      6
+    ],
+    "rawCandidateCounts": [
+      4,
+      4
+    ],
+    "keptCandidateCounts": [
+      4,
+      4
+    ],
+    "maxItemsPerWindow": 5,
+    "maxOutputTokens": 32000,
+    "thinking": "provider default"
+  }
+}

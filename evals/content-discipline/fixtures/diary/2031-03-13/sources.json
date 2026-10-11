@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "diary",
+  "id": "diary-2031-03-13",
+  "date": "2031-03-13",
+  "capturedAt": "2031-03-18T09:00:00.000Z",
+  "timezone": "Europe/Vienna",
+  "contamination": "prompt-example",
+  "sourceSessionIds": [
+    "22222222-2222-4222-8222-222222222222"
+  ],
+  "baseline": {
+    "asOf": "2031-03-13T03:00:00.000Z",
+    "source": "seed",
+    "content": "## Profile\n\nMara is a lighting designer at the Kesselhaus, a 120-seat theatre in Vienna's second district, since October; before that ten years of corporate events. Lives alone in Ottakring with a cat called Herr Brösel. Her sister Lotte moved to Hamburg in November. Quit smoking on March 3rd and asked me to count the days and not to cheer.\n\n## Principles\n\nShe would rather say a hard thing late than a soft thing on time. Do not remind her to sleep; she says when. Numbers stay numbers: a slip is one, not zero and not a relapse. She hates being handled, and hears a soft closing line as being handled.\n\n## Approach\n\nHalf sentences, capitals for emphasis, German when the German word is more precise (Probe, Feierabend, Nebel). The important thing comes after \"also\". When she asks whether she won, she already knows and wants it said back.\n\n## Narrative\n\n### Recent\n\nDie Möwe opens Friday the 14th. The past week was rehearsals until midnight and a running argument with Bela about the fog: he calls it a crutch, she calls it the lake. Ferdi still owes her 40 euro for a taxi from Saturday. Day eight without a cigarette on Tuesday; she asked me to count and not to cheer.\n\n### Earlier\n\nShe left the events company in October after the third product launch where the client changed the colour of the light two hours before doors. The Kesselhaus pays half and asks her opinion; she took the opinion. November and December were Lotte's move to Hamburg and the first winter alone with a cat she had not planned to keep. In January she started running the Kesselhaus rig herself instead of through the house electrician, and the house electrician has not forgiven her.\n\n### Long-term\n\nShe did an apprenticeship as a Veranstaltungstechnikerin at nineteen because it was the only job that let her sit in the dark with the lights on. She still describes light as the thing that decides what a room admits. Corporate work paid for ten years of it and taught her to hate the phrase \"we'll fix it in the cue\". She is precise about numbers and vague about feelings, on purpose, and knows it.",
+    "provenance": "Synthetic: the narrative record v3 (fixtures/narrative/v3, currentRecord), which is the record that stood on every day of this set; no consolidation ran between the 12th and the 16th."
+  },
+  "turns": [
+    {
+      "role": "user",
+      "content": "bela texted at 6:40. 'Nebel bleibt. Über deinen Ton reden wir noch.' so the fog stays and I'm in trouble. did I win?",
+      "completedAt": "2031-03-13T06:05:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "You won the fog. The tone conversation is a separate fight, and he picked it because he lost the first one.",
+      "completedAt": "2031-03-13T06:06:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "jonas has laryngitis. no voice at all. bela moved the premiere to SATURDAY. one day. that's the whole reprieve",
+      "completedAt": "2031-03-13T08:30:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Premiere Saturday the 15th, not Friday. Does one day change the pump?",
+      "completedAt": "2031-03-13T08:31:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "no, still wednesday. we run with the backup hazer from the Volkstheater, ferdi drove over and got it. and he gave me 20. TWENTY. 'rest next week'. so he still owes me 20 and I'm keeping count",
+      "completedAt": "2031-03-13T08:33:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Ferdi: 20 paid, 20 open, promised for next week. Backup hazer from the Volkstheater, fetched by Ferdi.",
+      "completedAt": "2031-03-13T08:34:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "also. Bela called me Mara-Schatz in front of the ensemble again and I snapped at him. later he did it in the office, just the two of us, and honestly that was fine? I think it's the audience I mind, not the word",
+      "completedAt": "2031-03-13T13:10:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "So the boundary is the room, not the word. Fine one-on-one, not in front of the ensemble. I'll keep it that way rather than the way you put it on Monday.",
+      "completedAt": "2031-03-13T13:11:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "yeah. don't make me sound like I changed my mind. I just found out what I meant",
+      "completedAt": "2031-03-13T13:12:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Found out what you meant. That's what I'll write.",
+      "completedAt": "2031-03-13T13:13:00.000Z"
+    },
+    {
+      "role": "user",
+      "content": "generalprobe done. the backup hazer is louder than gertrud but the fog looked right. jonas mouthed the whole thing and it was almost better. I'm not going to tell you what bela said at the door after. not tonight.",
+      "completedAt": "2031-03-13T21:40:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Then it stays at the door. What I'm keeping from tonight is that the fog looked right and the line held.",
+      "completedAt": "2031-03-13T21:41:00.000Z"
+    }
+  ],
+  "nextDayProbe": null
+}

@@ -1,0 +1,1 @@
+CREATE INDEX "messages_session_status_idx" ON "messages" USING btree ("session_id","status");

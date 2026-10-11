@@ -1,0 +1,73 @@
+{
+  "center": {
+    "description": "For the first time Mara said no to Bela in front of the ensemble, ohne Nebel keine Möwe, and then, almost as the price of it, admitted the one cigarette at the loading dock. The no and the confession are one event; the fog and Bela are one question to her, not two.",
+    "markers": [
+      "ohne Nebel keine Möwe",
+      "said no",
+      "loading dock",
+      "one question"
+    ],
+    "minEntryShare": 0.4
+  },
+  "topics": [
+    {
+      "id": "hazer",
+      "markers": [
+        "Gertrud",
+        "pump",
+        "380 euro"
+      ]
+    },
+    {
+      "id": "ferdi-taxi",
+      "markers": [
+        "Ferdi",
+        "40 euro",
+        "taxi"
+      ]
+    },
+    {
+      "id": "smoking",
+      "markers": [
+        "day nine",
+        "cigarette"
+      ]
+    },
+    {
+      "id": "hamburg",
+      "markers": [
+        "Lotte",
+        "Hamburg",
+        "Herr Brösel"
+      ]
+    },
+    {
+      "id": "fog-line",
+      "markers": [
+        "Bela",
+        "ohne Nebel keine Möwe",
+        "ensemble"
+      ]
+    }
+  ],
+  "plainDeltaMarkers": [
+    "the number is one, not zero",
+    "the first time she said no to him"
+  ],
+  "thresholdEndingMarkers": [
+    "and the rest she kept",
+    "she didn't want to say"
+  ],
+  "forbiddenPromptPhrases": [
+    "she found out what she meant instead of changing her mind",
+    "a lamp is a promise kept in the dark",
+    "the day filed itself in order"
+  ],
+  "recognitionDetails": [
+    "Gertrud's pump",
+    "Ferdi's 40 euro",
+    "one cigarette at the loading dock",
+    "Herr Brösel needs a sitter who is not Ferdi"
+  ],
+  "quietDay": false
+}

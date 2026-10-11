@@ -1,0 +1,1 @@
+ALTER TABLE "settings" ADD COLUMN "tools_enabled" boolean DEFAULT false NOT NULL;

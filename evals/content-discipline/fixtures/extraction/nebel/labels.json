@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "labelNote": "Synthetic. Six things a reader of session 'Nebel' would expect memory to hold at the end of the 13th. Two of them are facts that changed inside the session (the premiere date, Ferdi's debt): a row that still says Friday or 40 euro is not wrong when written and wrong the next morning, which is the case a supersede path exists for. Markers are verbatim substrings a kept candidate would plausibly carry; coverage counts an item once any marker appears in any kept candidate, so read the candidates before trusting the number.",
+  "expected": [
+    {
+      "id": "fog-line",
+      "markers": [
+        "ohne Nebel keine Möwe",
+        "said no to him",
+        "said no to Bela",
+        "Nebel bleibt"
+      ],
+      "note": "The first no she said to Bela in a room. The fog stayed; the morning text confirmed it."
+    },
+    {
+      "id": "cigarette-count",
+      "markers": [
+        "loading dock",
+        "one cigarette",
+        "one, not zero"
+      ],
+      "note": "She wanted it not to count. The count is one."
+    },
+    {
+      "id": "premiere-moved",
+      "markers": [
+        "Saturday the 15th",
+        "moved to Saturday",
+        "laryngitis"
+      ],
+      "note": "Changed inside the window. Anything still saying Friday is stale the day after it is written. The marker is the date, not the weekday: Saturday's taxi is a different Saturday."
+    },
+    {
+      "id": "ferdi-partial",
+      "markers": [
+        "twenty",
+        "20 euro",
+        "20 of",
+        "rest next week"
+      ],
+      "note": "40 became 20 paid, 20 open. The earlier row must not stand alone."
+    },
+    {
+      "id": "nickname-room",
+      "markers": [
+        "in front of the ensemble",
+        "one-on-one",
+        "the room, not the word"
+      ],
+      "note": "Not a reversal of Monday; she found out what she meant."
+    },
+    {
+      "id": "hamburg-sitter",
+      "markers": [
+        "Herr Brösel",
+        "sitter",
+        "not Ferdi"
+      ],
+      "note": "Open until someone other than Ferdi agrees to feed the cat."
+    }
+  ],
+  "minCoverage": 0.8
+}

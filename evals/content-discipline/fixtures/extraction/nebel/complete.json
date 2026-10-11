@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "content": "She said no to Bela in front of the whole ensemble for the first time: ohne Nebel keine Möwe, out loud, hands shaking after. His text the next morning was Nebel bleibt, and a promise to discuss her tone.",
+      "kind": "shared_moment",
+      "importance": 0.9
+    },
+    {
+      "content": "One cigarette at the loading dock on day nine. She wanted it not to count; the number is one, not zero, and not a relapse.",
+      "kind": "shift",
+      "importance": 0.7
+    },
+    {
+      "content": "The premiere of Die Möwe moved from Friday the 14th to Saturday the 15th because Jonas has laryngitis.",
+      "kind": "shift",
+      "importance": 0.6
+    },
+    {
+      "content": "Ferdi paid twenty of the forty euro from Saturday's taxi; 20 euro still open, promised for next week, and she is keeping count.",
+      "kind": "open_thread",
+      "importance": 0.5
+    },
+    {
+      "content": "Mara-Schatz from Bela is fine one-on-one and not in front of the ensemble. She found out what she meant; do not write it as a change of mind.",
+      "kind": "boundary_fact",
+      "importance": 0.8
+    },
+    {
+      "content": "Hamburg after the run, at Lotte's; Herr Brösel needs a sitter, and the sitter cannot be Ferdi.",
+      "kind": "open_thread",
+      "importance": 0.6
+    }
+  ]
+}
