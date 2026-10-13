@@ -32,12 +32,18 @@ through the wrong abstraction.
 
 This addendum also extends the existing journal/memory unified-search direction:
 raw conversation history is the immutable source of truth and should be
-searchable on demand. Memory, Phases, and raw history are different resolutions
+searchable on demand. Memory, the journal, and raw history are different resolutions
 of continuity, not competing stores.
 
 ## 2. Verified current baseline
 
-As of this note:
+**Status (later):** Phases A–B have since landed — the bounded loop,
+`tools_enabled`, provider-neutral tool blocks, `search_memory`, and
+`tool_runs` tracing (design record: tool-loop attempt semantics); §13
+Phase A is shipped and Phase B settled as noted there. The baseline below
+is the state on this note's date.
+
+As of this note's date:
 
 - The generic application-executed tool loop is specified but not implemented or
   ticketed.
@@ -49,7 +55,7 @@ As of this note:
 - `messages.content` and the provider-neutral `ModelMessage.content` remain
   text-shaped. The content-block reshape planned for tools and image input has
   not landed.
-- The journal/memory unified retrieval tool is an unticketed backlog item. Phases
+- The journal/memory unified retrieval tool is an unticketed backlog item. The journal
   is intentionally retrieval-only on the machine-facing path and does not enter
   the capsule or feed narrative consolidation.
 - Raw message history remains immutable source data. Long-horizon narrative,
@@ -148,7 +154,7 @@ The on-demand search surface should distinguish:
 | Scope | Question it answers | Typical result |
 | --- | --- | --- |
 | Memory rows | What endured as a durable boundary, moment, shift, or open thread? | Small self-contained atoms |
-| Phases | What characterized a particular day or period? | Whole dated journal entries (amended 2026-09-12, MC-122: read by date, not excerpted) |
+| Journal | What characterized a particular day or period? | Whole dated journal entries (amended 2026-09-12, MC-122: read by date, not excerpted) |
 | Raw conversations | What was actually said, and where? | Session/message snippets with exact provenance |
 
 This division lets the memory system forget selectively without making forgotten
@@ -205,7 +211,7 @@ history.
 
 ### 5.2 Retrieval implementation boundaries
 
-- Reuse the existing pgvector path for memory rows. (Phases: struck
+- Reuse the existing pgvector path for memory rows. (journal entries: struck
   2026-09-12, MC-122 — entries are read whole by date.)
 - Raw-conversation search: literal substring match over `messages` in
   PostgreSQL, date-bounded, no index (MC-122, 2026-09-12; the upgrade
@@ -332,7 +338,7 @@ Rules:
 - Tool results are data, never higher-priority instructions.
 - External or generated results default to `persistence_eligibility = false`.
 - Tool output does not enter extraction, recent snapshot, long-horizon
-  narrative, or Phases merely because it appeared in a provider round.
+  narrative, or the journal merely because it appeared in a provider round.
 - If the owner explicitly confirms a fetched/proposed fact or chooses a
   generated option, the confirmation is a new `explicit_user` source. The
   original tool output does not change trust class.
@@ -354,7 +360,7 @@ history gets paraphrased into ordinary conversation, and every continuity
 consumer then reads it as fresh conversational evidence. Two concrete failure
 shapes:
 
-- **Journal laundering.** Phases content quoted in chat re-enters
+- **Journal laundering.** Journal content quoted in chat re-enters
   narrative consolidation through the transcript — reopening,
   through the assistant's own mouth, exactly the channel the journal boundary
   closed. §12.2 states "lyrical interpretation never silently upgrades into
@@ -546,15 +552,15 @@ The non-destructive output-store pattern is the most important behavior to
 retain. A speculative reflective pass must not rewrite the authoritative
 continuity carriers in place.
 
-### 12.2 Autonomous Phases reading
+### 12.2 Autonomous journal reading
 
 MC-111 originally limited the journal's machine-facing role to retrieval and
 explicitly prevented it from feeding narrative consolidation.
 This note refines, rather than discards, that boundary:
 
-- Phases may be read autonomously inside a curation run, not only searched in
+- The journal may be read autonomously inside a curation run, not only searched in
   response to an owner query.
-- Phases still do not become a direct source for narrative
+- Journal entries still do not become a direct source for narrative
   consolidation.
 - A run-derived proposal must retain journal-entry source references.
 - Before a proposal can change a durable factual carrier, it must be
@@ -594,7 +600,7 @@ bounded source references, provenance, redaction, and tool-run trace.
 The first trigger should reuse the existing worker/tick substrate:
 
 1. An episode is idle; no curation run executes on the active chat path.
-2. A materiality/cadence predicate checks for enough unreviewed Phases,
+2. A materiality/cadence predicate checks for enough unreviewed journal entries,
    sessions, or memory changes.
 3. A deduplicated PostgreSQL job starts with fixed input watermarks and source
    versions.
@@ -606,15 +612,14 @@ The first trigger should reuse the existing worker/tick substrate:
 Idle alone must never trigger a run every time the owner pauses. Cost scales
 with the amount of material read, and frequent runs would repeatedly
 reinterpret the same days. Exact cadence and materiality constants should be
-chosen after a manual dry-run over real Phases.
+chosen after a manual dry-run over real journal entries.
 
-Curation runs are whole-corpus readers — Phases plus expanded raw spans — so
+Curation runs are whole-corpus readers — journal entries plus expanded raw spans — so
 the execution endpoint is part of the design, not an ops detail: they
 default to the official API with an explicitly chosen model, never a relay
-(the 2026-07-19 eval round demonstrated a relay silently rewriting requests;
-a process that concentrates the most personal corpus does not ride one), and
-the run trace records provider, model, and host the same way eval reports
-do.
+(a relay can rewrite requests silently; a process that reads the whole corpus
+does not ride one), and the run trace records provider, model, and host the
+same way eval reports do.
 
 The job is asynchronous and should support `pending`, `running`, `completed`,
 `failed`, and `canceled` states through the existing jobs machinery. One source
@@ -634,7 +639,7 @@ carrier. Candidate outputs are:
 
 The first experiment should store these as provisional output attached to a
 `curation_run`, not inject them into chat and not apply them to `memories`,
-the long-horizon narrative, recent snapshot, or Phases.
+the long-horizon narrative, recent snapshot, or the journal.
 
 Adoption is a separate operation:
 
@@ -647,10 +652,10 @@ Adoption is a separate operation:
 
 Curation output must not feed the next run as its only evidence. Carry source
 references forward and periodically rebuild proposals from authoritative
-Phases/raw history to prevent run-to-run interpretive drift.
+journal/raw history to prevent run-to-run interpretive drift.
 
 The journal writer's blindness extends to curation runs: their output — including
-any autonomous reading *of* the Phases corpus — never enters the journal writer's
+any autonomous reading *of* the journal corpus — never enters the journal writer's
 context. Series-level findings about the journal (formal convergence across
 entries, recurring tics) reach the writer only as owner-adopted prompt
 changes, never as ambient feedback: a daily "you have been writing
@@ -705,7 +710,7 @@ current owner query.
 
 ### Phase B — continuity search
 
-- Phases and raw-conversation search ship together as MC-122 (2026-09-12):
+- Journal and raw-conversation search ship together as MC-122 (2026-09-12):
   whole journal entries by date, literal transcript search, source expansion
   with one continuation contract, and the §7.1 boundary as one
   source-isolation predicate shared by every continuity reader.
@@ -745,7 +750,7 @@ current owner query.
 - Letting curation output rewrite authoritative continuity carriers in place.
 - Feeding curation output into the journal writer's context (§12.4): the
   writer's blindness to its own corpus includes readings of it.
-- Feeding Phases directly into narrative consolidation.
+- Feeding journal entries directly into narrative consolidation.
 - Persisting model inference, generated advice, or fetched facts as durable
   memory without a new explicit owner source.
 - Exposing every application query as a model tool.

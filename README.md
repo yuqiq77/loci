@@ -13,12 +13,6 @@ conversation, memory, queue, and diagnostic traces in one inspectable system.
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![CI](https://github.com/yuqiq77/loci/actions/workflows/ci.yml/badge.svg)
 
-This repository is a snapshot of a private development line; development
-continues privately, while small fixes may land here.
-
-As of v0.2.1: 42 unit files / 461 tests; 14 database files / 159 tests; 3
-browser files / 6 tests; 10 deterministic content-eval cases.
-
 ![Loci chat with a synthetic conversation and memory recall](docs/assets/loci-chat.png)
 
 All previews use synthetic data in disposable databases. The chat preview uses

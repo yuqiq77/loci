@@ -1,8 +1,7 @@
 # Roadmap
 
-loci is a working snapshot, not a promise of a release schedule. These are
-the next architectural directions that follow from the current system and its
-observed failure modes.
+loci is a working snapshot. These are the next architectural directions
+that follow from the current system and its observed failure modes.
 
 ## Typed memory layers
 
